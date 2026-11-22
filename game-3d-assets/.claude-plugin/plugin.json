@@ -1,0 +1,10 @@
+{
+  "name": "game-3d-assets",
+  "description": "Search Free Game 3D Assets from your AI and save 3D models (GLB/FBX), PBR materials, decals, MatCaps and skyboxes straight into your project. Bundles a skill that drives the freegame3d CLI (npx, no setup). All assets are CC0 (commercial use OK, no attribution).",
+  "version": "1.0.0",
+  "author": {
+    "name": "Free Game UI Assets"
+  },
+  "repository": "https://github.com/Yu-Rin-Chi2/free-game-3dassets-plugin",
+  "keywords": ["game", "3d", "glb", "fbx", "pbr", "texture", "skybox", "matcap", "decal", "assets", "cc0", "gamedev"]
+}

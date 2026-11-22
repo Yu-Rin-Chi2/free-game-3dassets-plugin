@@ -1,0 +1,21 @@
+{
+  "name": "free-game-3d-assets",
+  "owner": {
+    "name": "Free Game UI Assets"
+  },
+  "metadata": {
+    "description": "Claude Code plugin to search free CC0 3D game assets (models, PBR materials, decals, MatCaps, skyboxes) from your AI and save them straight into your project",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "game-3d-assets",
+      "source": "./game-3d-assets",
+      "description": "Ask for 'a street lamp 3D model' or 'a wood PBR texture' and it searches Free Game 3D Assets and saves the GLB/FBX/PNG. Bundles a skill that drives the freegame3d CLI (npx, no setup). All assets are CC0 (commercial use OK, no attribution).",
+      "version": "1.0.0",
+      "category": "assets",
+      "tags": ["game-dev", "3d", "glb", "pbr", "assets", "cc0"],
+      "keywords": ["game", "3d", "glb", "fbx", "pbr", "texture", "skybox", "matcap", "decal", "assets", "cc0", "gamedev"]
+    }
+  ]
+}

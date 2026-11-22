@@ -1,0 +1,48 @@
+{
+  "name": "freegame3d",
+  "version": "1.0.0",
+  "description": "Search and download CC0 3D models, PBR materials, decals, MatCaps and skyboxes from Free Game 3D Assets — built for AI agents and humans alike.",
+  "type": "module",
+  "bin": {
+    "freegame3d": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18.18"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test test/cli.test.mjs",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "game",
+    "3d",
+    "glb",
+    "fbx",
+    "pbr",
+    "texture",
+    "material",
+    "skybox",
+    "matcap",
+    "decal",
+    "assets",
+    "cc0",
+    "gamedev",
+    "cli",
+    "ai-agent"
+  ],
+  "homepage": "https://3d.freegameui.net",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yu-Rin-Chi2/free-game-3dassets-plugin.git",
+    "directory": "cli"
+  },
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "@types/node": "^18.19.0",
+    "typescript": "^5.6.0"
+  }
+}
